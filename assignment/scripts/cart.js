@@ -5,4 +5,18 @@ let basket = [];
 function addItem ( item ) {
   basket += item;
   return true;
-}
+};
+
+// addItem function
+
+function listItems () {
+  for (item in basket) {
+    console.log(item);
+  }
+};
+// listItems function
+
+function empty () {
+  return basket;
+};
+// empty function
